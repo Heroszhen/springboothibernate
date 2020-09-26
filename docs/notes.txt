@@ -1,0 +1,30 @@
+---création
+Spring Boot -> Spring starter project
+
+---structure
+1.controllers : src/main/java 
+routage :
+import org.springframework.web.bind.annotation.GetMapping;
+@GetMapping("/")
+
+
+
+---thymeleaf (template)
+Dans un controller: 
+import org.springframework.web.bind.annotation.GetMapping;
+ModelMap mm
+mm.put("title","Spring Boot");
+
+Dans une vue:
+<h1>Hello, <span th:text="${title}"></span>!</h1>
+
+
+---hibernate
+https://www.youtube.com/watch?v=QXFgzomuDOg
+DevTools, MySQL, JPA, Web, Lombok
+
+
+
+
+
+https://www.youtube.com/watch?v=W1_xezm2DGs
